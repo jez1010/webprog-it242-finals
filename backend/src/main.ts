@@ -3,14 +3,10 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
-  app.enableCors({
-    origin: '*',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
-  });
-
+  app.enableCors();
   await app.init();
+  return app.getHttpAdapter().getInstance(); // This is the magic line for Vercel
 }
 
-export default bootstrap();
+// Export the promise for Vercel
+export const handler = bootstrap();
