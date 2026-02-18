@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import * as utils from './functions.js';
+import * as functions from './functions.js';
 import axios from 'axios';
 
 //the actual app display
@@ -27,13 +27,15 @@ function BulletinBoard() {
 
 
   return (
+    <div>
       posts.map((post) => (
         <div key ={post.id}>
-          <p>{utils.formatDate(post.created_at)}</p>
+          <p>{functions.formatDate(post.created_at)}</p>
           <p>{post.name}: {post.content}</p>
         </div>
       )
       )
+    </div>
   );
 
 }
