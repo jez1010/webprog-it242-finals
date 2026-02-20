@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.bulletin_post {
+  padding: 10;
+  margin: 30;
+
+  border: solid;
+  border-width: 2;
+
+  background-color: #EEEEEE;
+  color: #222222;
+}

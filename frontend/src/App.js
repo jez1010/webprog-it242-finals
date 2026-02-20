@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import * as functions from './functions.js';
 import axios from 'axios';
+import './App.css';
 
 //the actual app display
 function BulletinBoard() {
@@ -29,7 +30,7 @@ function BulletinBoard() {
   return (
     <div>
       {posts.map((post) => (
-        <div key = {post.id}>
+        <div key = {post.id} class = "bulletin_post">
           <p>{functions.formatDate(post.created_at)}</p>
           <p>{post.name}: {post.content}</p>
         </div>
