@@ -1,5 +1,4 @@
-import React from 'react';
-import * as functions from '../functions.js';
+import * as functions from './functions.js';
 
 function PostCards({ posts }) {
   return (

@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import * as functions from './functions.js';
 import axios from 'axios';
 import './App.css';
 
