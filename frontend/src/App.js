@@ -42,7 +42,7 @@ function BulletinBoard() {
         table: 'board_post'
       },
       (payload) => {
-        fetchPosts;
+        fetchPosts();
       }
     )
     .subscribe;
