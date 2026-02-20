@@ -37,4 +37,4 @@ function BulletinBoard() {
 
 }
 
-
+export default BulletinBoard
