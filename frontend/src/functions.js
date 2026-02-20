@@ -6,3 +6,5 @@ export const formatDate = (timestamp) => {
 export const formatTime = (timestamp) => {
     return new Date(timestamp).toLocaleTimeString();
 };
+
+export exampleForm = 

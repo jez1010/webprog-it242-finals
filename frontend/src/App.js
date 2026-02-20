@@ -3,6 +3,8 @@ import * as functions from './functions.js';
 import axios from 'axios';
 import './App.css';
 
+import PostCards from './components/Post';
+
 //the actual app display
 function BulletinBoard() {
   const [posts, setPosts] = useState([]);
@@ -29,15 +31,10 @@ function BulletinBoard() {
 
   return (
     <div>
-      {posts.map((post) => (
-        <div key = {post.id} className = "bulletin_post">
-          <span className = "anon_name">{post.name}</span> <span className = "post_date">{functions.formatDate(post.created_at)}</span>
-          <p>: {post.content}</p>
-        </div>
-      ))}
+      <PostCards posts={posts} />
     </div>
   );
 
 }
-export default BulletinBoard;
+
 
