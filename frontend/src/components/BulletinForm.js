@@ -2,6 +2,7 @@ import {useState} from 'react';
 import axios from 'axios';
 
 import {baseUrl} from '../config';
+import './BulletinForm.css';
 
 function BulletinForm() {
   const [name, setName] = useState("");
@@ -27,8 +28,10 @@ function BulletinForm() {
   };
 
   return (
-    <>
+    <div className = "bulletin_form">
+      <span className = "title">Create a post on the bulletin.</span>
       <form onSubmit = {handleSubmit}>
+        <span className = "label">Name</span>
         <input
           type = "text"
           placeholder = "Enter name..."
@@ -37,16 +40,19 @@ function BulletinForm() {
             (e) => setName(e.target.value)
           }
         />
+        <br/>
+        <span className = "label">Content</span>
         <textarea
           type = "text"
           placeholder = "Enter content..."
-          value = {name}
+          value = {content}
           onChange = {
             (e) => setContent(e.target.value)
           }
         />
       </form>
-    </>
+      <button type = "submit">Post</button>
+    </div>
   );
 }
 
