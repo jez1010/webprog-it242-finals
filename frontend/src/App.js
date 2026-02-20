@@ -30,7 +30,7 @@ function BulletinBoard() {
   return (
     <div>
       {posts.map((post) => (
-        <div key = {post.id} class = "bulletin_post">
+        <div key = {post.id} className = "bulletin_post">
           <p>{functions.formatDate(post.created_at)}</p>
           <p>{post.name}: {post.content}</p>
         </div>
