@@ -2,7 +2,6 @@ import {useState} from 'react';
 import axios from 'axios';
 
 import {baseUrl} from '../config';
-import './BulletinForm.css'
 
 function BulletinForm() {
   const [name, setName] = useState("");
