@@ -1,18 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import {createClient} from '@supabase/supabase-js';
 
+import {baseUrl} from './config';
+import {supabase} from './config';
 import './App.css';
 import PostCards from './components/PostCards';
 
-const supabase = createClient(
-  process.env.REACT_APP_SUPABASE_URL,
-  process.env.REACT_APP_SUPABASE_ANON_KEY,
-)
-
-
-
-//the actual app display
 function BulletinBoard() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -20,8 +13,7 @@ function BulletinBoard() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const baseUrl = process.env.REACT_APP_API_URL.replace(/\/$/, "");
-        const {data} =  await axios.get(`${baseUrl}/app`);
+        const {data} = await axios.get(`${baseUrl}/app`);
         setPosts(data);
       } catch (err) {
         console.error(err);
@@ -59,6 +51,7 @@ function BulletinBoard() {
 
   return (
     <div>
+      <BulletinForm/>
       <PostCards posts={posts}/>
     </div>
   );

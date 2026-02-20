@@ -23,4 +23,21 @@ export class AppService {
     if (error) throw error;
     return data;
   }
+
+  async createPost(in_name: string, in_content: string) {
+    const { data, error } = await this.supabase
+      .schema('webprog_stuff')
+      .from('board_post')
+      .insert(
+        [
+          {
+            name: in_name,
+            content: in_content,
+          }
+        ]
+      );
+
+    if (error) throw error;
+    return data;
+  }
 }
