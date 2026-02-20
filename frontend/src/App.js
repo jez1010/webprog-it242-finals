@@ -31,8 +31,8 @@ function BulletinBoard() {
     <div>
       {posts.map((post) => (
         <div key = {post.id} className = "bulletin_post">
-          <h5{functions.formatDate(post.created_at)}<h5>
-          <p>{post.name}: {post.content}</p>
+          <span className = "anon_name">{post.name}</span> <span className = "post_date">{functions.formatDate(post.created_at)}</span>
+          <p>: {post.content}</p>
         </div>
       ))}
     </div>

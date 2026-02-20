@@ -42,8 +42,20 @@
   margin: 30px;
 
   border: solid;
-  border-width: 2;
+  border-width: 2px;
 
   background-color: #EEEEEE;
-  color: #222222;
+  color: #555555;
+
+  font-size: 15px;
+}
+
+.anon_name {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.post_date {
+  font-weight: 200;
+  font-size: 0.75rem;
 }
