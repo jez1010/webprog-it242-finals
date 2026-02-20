@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import {createClient} from '@supabase/supabase-js';
-import './App.css';
 
+import './App.css';
 import PostCards from './components/PostCards';
 
 const supabase = createClient(
