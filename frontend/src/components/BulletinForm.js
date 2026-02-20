@@ -32,7 +32,9 @@ function BulletinForm() {
       <span className = "title">Create a post on the bulletin.</span>
       <form onSubmit = {handleSubmit}>
         <span className = "label">Name</span>
+        <br/>
         <input
+          className= "input"
           type = "text"
           placeholder = "Enter name..."
           value = {name}
@@ -42,6 +44,7 @@ function BulletinForm() {
         />
         <br/>
         <span className = "label">Content</span>
+        <br/>
         <textarea
           type = "text"
           placeholder = "Enter content..."

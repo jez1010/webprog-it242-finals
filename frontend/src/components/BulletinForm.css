@@ -7,7 +7,7 @@
   border: solid;
   border-width: 2px;
 
-  background-color: #EEEEEE;
+  background-color: #EFEFEF;
   color: #555555;
 
   font-size: 15px;
@@ -21,4 +21,27 @@
 .label {
   font-weight: 200;
   font-size: 0.75rem;
+}
+
+.input {
+  padding: 0 2px;
+
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+
+  border: none;
+  border-bottom: 1px solid #8D8D8D;
+  border-radius: 0;
+
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
+.input:focus{
+  border: 2px solid #2727D7;
+}
+
+.input:placeholder {
+  color: #757575;
 }
