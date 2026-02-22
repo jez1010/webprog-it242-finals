@@ -3,8 +3,9 @@ import './Header.css';
 
 function Header() {
   return (
-    <div>
+    <div className = "header">
       <img 
+        className = "logo"
         src = {logo} 
         alt = "logo"
       />
