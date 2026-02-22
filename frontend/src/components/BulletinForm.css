@@ -1,8 +1,6 @@
 .bulletin_form {
   padding: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
 
   border: solid;
   border-width: 2px;
@@ -38,10 +36,15 @@
   color: #000000;
 
   font-size: 1em;
+}
 
-  resize: vertical;
-  min-height: 100px;
-  
+.text_area {
+  resize: none;
+
+  line-height: 1.2;
+
+  min-height: 1.2em;
+  max-height: 6em;
 }
 
 .input:focus{
@@ -50,4 +53,10 @@
 
 .input:placeholder {
   color: #757575;
+}
+
+@media (max-width: 600px) {
+  div {
+    margin: 10px;
+  }
 }
