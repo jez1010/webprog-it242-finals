@@ -27,10 +27,14 @@
 }
 
 .image_content .text-side {
+  margin: 5px;
+
   flex-grow: 3;
 }
 
 .image_content .image_side {
+  margin: 10px;
+
   flex-grow: 2;
 
   display: flex;
