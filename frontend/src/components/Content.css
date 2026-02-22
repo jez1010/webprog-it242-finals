@@ -28,7 +28,7 @@
   flex-direction: row;
 }
 
-.image_content .text-side {
+.image_content .text_side {
   margin: 5px;
 
   flex-grow: 3;
@@ -52,5 +52,20 @@
 }
 
 @media (max-height: 800px) {
+  .yap_content{
+    margin: 10;
+  }
 
+  .image_content {
+    flex-direction: column;
+  }
+
+  .image_side {
+    flex-direction: column;
+  }
+
+  .image_content img {
+    width: 100%;
+    height: auto;
+  }
 }

@@ -28,7 +28,7 @@ function Content() {
         Meet the Mainframes
       </div>
       <div className = "image_content">
-        <div className = "content text-side">
+        <div className = "content text_side">
           Whilst IBM has had a number of prominent mainframes, the most 
           recognizable and still existing line of mainframes started with 
           the System/360, also known as the S/360. Designed as an all-around 
