@@ -54,9 +54,3 @@
 .input:placeholder {
   color: #757575;
 }
-
-@media (max-width: 600px) {
-  div {
-    margin: 10px;
-  }
-}

@@ -46,7 +46,7 @@ function BulletinForm() {
         <span className = "label">Content</span>
         <br/>
         <textarea
-          className = "input"
+          className = "input text_area"
           type = "text"
           placeholder = "Enter content..."
           value = {content}
@@ -54,8 +54,9 @@ function BulletinForm() {
             (e) => setContent(e.target.value)
           }
         />
+        <br/>
+        <button type = "submit">Post</button>
       </form>
-      <button type = "submit">Post</button>
     </div>
   );
 }
