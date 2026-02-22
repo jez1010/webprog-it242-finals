@@ -4,6 +4,7 @@ import axios from 'axios';
 import {baseUrl} from './config';
 import {supabase} from './config';
 import './App.css';
+import Header from './components/Header';
 import PostCards from './components/PostCards';
 import BulletinForm from './components/BulletinForm';
 
@@ -52,6 +53,7 @@ function BulletinBoard() {
 
   return (
     <div>
+      <Header/>
       <BulletinForm/>
       <PostCards posts={posts}/>
     </div>

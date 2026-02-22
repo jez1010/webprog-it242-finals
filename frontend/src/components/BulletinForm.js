@@ -21,7 +21,6 @@ function BulletinForm() {
 
       setName('');
       setContent('');
-      alert("Post added to bulletin.");
     } catch (err) {
       alert("Something went wrong. Try again.");
     }
@@ -29,7 +28,7 @@ function BulletinForm() {
 
   return (
     <div className = "bulletin_form">
-      <span className = "title">Create a post on the bulletin.</span>
+      <span className = "title">Create a post on the board.</span>
       <form onSubmit = {handleSubmit}>
         <span className = "label">Name</span>
         <br/>
