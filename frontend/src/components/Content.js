@@ -1,10 +1,12 @@
+import './Content.css';
+
 function Content() {
   return (
-    <div>
-      <div>
+    <div className = "yap_content">
+      <div className = "title">
         About IBM
       </div>
-      <div>
+      <div className = "content">
         The International Business Machines Corporation, or simply IBM 
         is an American multinational technology company headquartered 
         in Armonk, New York, and present in over 175 countries. It was 
@@ -19,11 +21,11 @@ function Content() {
         remains today.
       </div>
       
-      <div>
+      <div className = "title">
         Meet the Mainframes
       </div>
-      <div>
-        <div>
+      <div className = "image_content">
+        <div className = "content text-side">
           Whilst IBM has had a number of prominent mainframes, the most 
           recognizable and still existing line of mainframes started with 
           the System/360, also known as the S/360. Designed as an all-around 
@@ -35,23 +37,23 @@ function Content() {
           its lifetime, IBM released several models, allowing it to remain updated 
           until the release of the System/370.
         </div>
-        <div>
+        <div className = "image_side">
           <img 
             src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IBM_system_360-50_console_-_MfK_Bern.jpg/1280px-IBM_system_360-50_console_-_MfK_Bern.jpg"
             alt = "S/360-50"
           />
-          <div>An S/360 Model 50 computer.</div>
+          <div className = "sub_content">An S/360 Model 50 computer.</div>
         </div>
       </div>
-      <div>
-        <div>
+      <div className = "image_content">
+        <div className = "image_side">
           <img 
             src = "https://upload.wikimedia.org/wikipedia/commons/c/cd/IBM_System_370-145_und_Bandlaufwerke_2401.png"
             alt = "S/370-145"
           />
-          <div>An S/370 Model 145 computer with IBM 2401 tape drive.</div>
+          <div className = "sub_content">An S/370 Model 145 computer with IBM 2401 tape drive.</div>
         </div>
-        <div>
+        <div className = "content text_side">
           The System/370, or simply the S/370, was the next upgrade of the S/360 system. 
           Now using an update S/370 architecture that remained backward compatible with 
           S/360 architecture, the S/370 allowed businesses to keep their programs alive 
