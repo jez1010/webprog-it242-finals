@@ -26,7 +26,7 @@ function Content() {
         Meet the Mainframes
       </div>
       <div className = "image_content">
-        <div className = "content text_side">
+        <div className = "text text_side">
           Whilst IBM has had a number of prominent mainframes, the most 
           recognizable and still existing line of mainframes started with 
           the System/360, also known as the S/360. Designed as an all-around 
@@ -54,7 +54,7 @@ function Content() {
           />
           <div className = "sub_text">An S/370 Model 145 computer with IBM 2401 tape drive.</div>
         </div>
-        <div className = "content text_side">
+        <div className = "text text_side">
           The System/370, or simply the S/370, was the next upgrade of the S/360 system. 
           Now using an update S/370 architecture that remained backward compatible with 
           S/360 architecture, the S/370 allowed businesses to keep their programs alive 
