@@ -9,14 +9,16 @@
 
   background-color: #EEEEEE;
   color: #555555;
+  
+  font-size: 0.7rem;
 }
 
 .anon_name {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .post_date {
   font-weight: 200;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
 }

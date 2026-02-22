@@ -11,12 +11,12 @@
 
 .title {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .label {
   font-weight: 200;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 
 .input {
@@ -33,7 +33,7 @@
   background-color: #EEEEEE;
   color: #000000;
 
-  font-size: 1rem;
+  font-size: 0.7;
 }
 
 .text_area {
@@ -41,8 +41,8 @@
 
   line-height: 1.2;
 
-  min-height: 1.2rem;
-  max-height: 6rem;
+  min-height: 0.7rem;
+  max-height: 3.5rem;
 }
 
 .input:focus{
