@@ -54,8 +54,10 @@ function BulletinBoard() {
   return (
     <div>
       <Header/>
-      <BulletinForm/>
-      <PostCards posts={posts}/>
+      <div className = "content">
+        <BulletinForm/>
+        <PostCards posts = {posts}/>
+      </div>
     </div>
   );
 
