@@ -38,19 +38,13 @@
 }
 
 .content {
-  width: calc(100% - 40px);
+  width: min(800px, 95%);
 
   margin: 0 auto;
 
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 
   display: flex;
   flex-direction: column;
-
-  @media (min-width: 800px) {
-    .content {
-      width: 800px;
-    }
-  }
 }
