@@ -4,21 +4,21 @@
 
 .title1 {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .title2 {
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 .content {
-  font-size: 0.5rem;
+  font-size: 0.5em;
 }
 
 .sub_content {
   font-weight: 200;
-  font-size: 0.5rem;
+  font-size: 0.5em;
 }
 
 .image_content {
@@ -33,11 +33,10 @@
 .image_content .image_side {
   flex-grow: 2;
 
-  align-items: center;
-  justify-content: center;
+  display: flex;
 }
 
 .image_content img {
   height: auto;
-  width: 100%;
+  width: 200px;
 }
