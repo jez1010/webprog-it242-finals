@@ -32,6 +32,8 @@
   margin: 5px;
 
   flex-grow: 3;
+
+  align-items: top;
 }
 
 .image_content .image_side {
@@ -46,4 +48,8 @@
 .image_content img {
   height: auto;
   width: 300px;
+}
+
+@media (max-height: 800px) {
+
 }
