@@ -3,7 +3,7 @@ import './Content.css';
 function Content() {
   return (
     <div className = "yap_content">
-      <div className = "title">
+      <div className = "title1">
         About IBM
       </div>
       <div className = "text">
@@ -22,7 +22,7 @@ function Content() {
         remains today.       
       </div>
       
-      <div className = "title">
+      <div className = "title1">
         Meet the Mainframes
       </div>
       <div className = "image_content">
