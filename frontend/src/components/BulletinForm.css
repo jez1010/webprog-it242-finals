@@ -10,17 +10,17 @@
   background-color: #EFEFEF;
   color: #555555;
 
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .title {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .label {
   font-weight: 200;
-  font-size: 0.75rem;
+  font-size: 0.75em;
 }
 
 .input {
@@ -36,6 +36,8 @@
 
   background-color: #EEEEEE;
   color: #000000;
+
+  font-size: 1em;
 }
 
 .input:focus{
