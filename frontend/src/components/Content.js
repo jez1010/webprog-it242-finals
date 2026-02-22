@@ -7,7 +7,6 @@ function Content() {
         About IBM
       </div>
       <div className = "content">
-        <p>
         The International Business Machines Corporation, or simply IBM 
         is an American multinational technology company headquartered 
         in Armonk, New York, and present in over 175 countries. It was 
@@ -15,13 +14,12 @@ function Content() {
         (CTR), a holding company of manufacturers of record-keeping and 
         measuring systems. It was renamed "International Business 
         Machines" in 1924.
-        </p>
-        <p>
+        <br/>
+        <br/>
         Since then, IBM has become a major corporation, and whilst it 
         has disappeared from the consumer computing scene after it sold 
         its minicomputer division to Lenovo in 2005, its impact still 
-        remains today.
-        </p>        
+        remains today.       
       </div>
       
       <div className = "title">

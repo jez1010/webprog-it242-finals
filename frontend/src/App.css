@@ -46,6 +46,9 @@ html {
 
   margin: 0 auto;
 
+  background-color: #c0c0c0;
+  opacity: 0.5;
+
   align-items: stretch;
   justify-content: center;
 
@@ -53,4 +56,5 @@ html {
   flex-direction: column;
 
   font-family: 'IBM Plex Sans';
+
 }
