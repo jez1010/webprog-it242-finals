@@ -57,6 +57,7 @@ function BulletinBoard() {
       <Header/>
       <div className = "content">
         <Content/>
+        <hr/>
         <BulletinForm/>
         <PostCards posts = {posts}/>
       </div>
