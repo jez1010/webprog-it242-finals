@@ -60,8 +60,13 @@
     flex-direction: column;
   }
 
+  .text_side {
+    order: 1;
+  }
+
   .image_side {
     flex-direction: column;
+    order: 2;
   }
 
   .image_content img {
