@@ -36,14 +36,20 @@ function Content() {
           until the release of the System/370.
         </div>
         <div>
-          <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IBM_system_360-50_console_-_MfK_Bern.jpg/1280px-IBM_system_360-50_console_-_MfK_Bern.jpg"/>
+          <img 
+            src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IBM_system_360-50_console_-_MfK_Bern.jpg/1280px-IBM_system_360-50_console_-_MfK_Bern.jpg"
+            alt = "S/360-50"
+          />
           <div>An S/360 Model 50 computer.</div>
         </div>
       </div>
       <div>
         <div>
-          <img src = "https://upload.wikimedia.org/wikipedia/commons/c/cd/IBM_System_370-145_und_Bandlaufwerke_2401.png"/>
-          <div>An S/370 Model 50 computer.</div>
+          <img 
+            src = "https://upload.wikimedia.org/wikipedia/commons/c/cd/IBM_System_370-145_und_Bandlaufwerke_2401.png"
+            alt = "S/370-145"
+          />
+          <div>An S/370 Model 145 computer with IBM 2401 tape drive.</div>
         </div>
         <div>
           The System/370, or simply the S/370, was the next upgrade of the S/360 system. 
