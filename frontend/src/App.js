@@ -5,6 +5,7 @@ import {baseUrl} from './config';
 import {supabase} from './config';
 import './App.css';
 import Header from './components/Header';
+import Content from './components/Class';
 import PostCards from './components/PostCards';
 import BulletinForm from './components/BulletinForm';
 
