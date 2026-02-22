@@ -18,7 +18,8 @@ export class AppService {
     const { data, error } = await this.supabase
       .schema('webprog_stuff')
       .from('board_post') 
-      .select('*');
+      .select('*')
+      .order('created_at', {ascending: false});
 
     if (error) throw error;
     return data;
