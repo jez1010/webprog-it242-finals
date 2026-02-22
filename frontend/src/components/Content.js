@@ -14,7 +14,7 @@ function Content() {
         (CTR), a holding company of manufacturers of record-keeping and 
         measuring systems. It was renamed "International Business 
         Machines" in 1924.
-
+        <br/>
         Since then, IBM has become a major corporation, and whilst it 
         has disappeared from the consumer computing scene after it sold 
         its minicomputer division to Lenovo in 2005, its impact still 

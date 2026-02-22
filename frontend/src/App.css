@@ -37,6 +37,10 @@
   }
 }
 
+html {
+  font-size: 30px;
+}
+
 .content {
   width: min(800px, 95%);
 
