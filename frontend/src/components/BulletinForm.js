@@ -46,6 +46,7 @@ function BulletinForm() {
         <span className = "label">Content</span>
         <br/>
         <textarea
+          className = "input"
           type = "text"
           placeholder = "Enter content..."
           value = {content}
