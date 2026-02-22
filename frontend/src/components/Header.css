@@ -9,11 +9,11 @@
 
   align-items: center;
   justify-content: center;
+
+  display: flex;
 }
 
 .logo {
   height: 50px;
   width: auto;
-
-  margin: auto;
 }
