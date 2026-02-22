@@ -6,7 +6,7 @@ function Content() {
       <div className = "title">
         About IBM
       </div>
-      <div className = "content">
+      <div className = "text">
         The International Business Machines Corporation, or simply IBM 
         is an American multinational technology company headquartered 
         in Armonk, New York, and present in over 175 countries. It was 
@@ -43,7 +43,7 @@ function Content() {
             src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IBM_system_360-50_console_-_MfK_Bern.jpg/1280px-IBM_system_360-50_console_-_MfK_Bern.jpg"
             alt = "S/360-50"
           />
-          <div className = "sub_content">An S/360 Model 50 computer.</div>
+          <div className = "sub_text">An S/360 Model 50 computer.</div>
         </div>
       </div>
       <div className = "image_content">
@@ -52,7 +52,7 @@ function Content() {
             src = "https://upload.wikimedia.org/wikipedia/commons/c/cd/IBM_System_370-145_und_Bandlaufwerke_2401.png"
             alt = "S/370-145"
           />
-          <div className = "sub_content">An S/370 Model 145 computer with IBM 2401 tape drive.</div>
+          <div className = "sub_text">An S/370 Model 145 computer with IBM 2401 tape drive.</div>
         </div>
         <div className = "content text_side">
           The System/370, or simply the S/370, was the next upgrade of the S/360 system. 
