@@ -8,7 +8,7 @@ function PostCards({ posts }) {
         posts.map(
           (post) => (
             <div key = {post.id} className = "bulletin_post">
-              <span className = "anon_name">{post.name}</span> <span className = "post_date">{functions.formatDate(post.created_at)}</span>
+              <span className = "anon_name">{post.name}</span> <span className = "post_date">{functions.formatDate(post.created_at)} {functions.formatTime(post.created_at)}</span>
               <p>{post.content}</p>
             </div>
           )
