@@ -6,7 +6,7 @@ import min from '../assets/content/minimize.webp';
 
 function ProfileCard() {
   return (
-    <div className = {styles.profile_card}>
+    <div className>
       <div className = {styles.top_tab}>
         <div>My Profile</div>
         <div className = {styles.buttons}>
@@ -26,6 +26,35 @@ function ProfileCard() {
         </div>
       </div>
 
+      <div class = {styles.contacts_row}>
+        <div>
+          <a href = "https://www.facebook.com/jezcardz">
+            <img 
+              src = "https://www.pngall.com/wp-content/uploads/19/Iconic-Facebook-Logo-Black-Style-PNG.png" 
+              class = {styles.contacts_logo} 
+              alt = "Facebook logo. Click to see their Facebook profile."
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/jezron-cardona-590939321/">
+            <img 
+              src="https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2428%2FPNG%2F512%2Flinkedin_black_logo_icon_147114.png&id=147114&pack_or_individual=pack" 
+              class={styles.contacts_logo} 
+              alt="LinkedIn logo. Click to see their LinkedIn profile."
+            />
+          </a>
+        </div>
+        <div>
+          <img 
+            src="https://cdn-icons-png.flaticon.com/256/625/625155.png" 
+            class={styles.contacts_logo} 
+            alt="A graphic of a telephone."
+          />
+          +63 992 722 9820
+        </div>
+      </div>
+
       <div className = {styles.desc}>
         <div className = "label">About Me</div>
 
@@ -36,6 +65,10 @@ function ProfileCard() {
           he had held fascination for since the start of his IT career. His other aspirations include acquiring 
           a humble property for independent living.
         </div>
+      </div>
+
+      <div>
+        
       </div>
 
     </div>

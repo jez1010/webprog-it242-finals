@@ -6,7 +6,7 @@ async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     app.enableCors({
         origin: true,
-        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
         credentials: true,
     });
     const port = 3000;
