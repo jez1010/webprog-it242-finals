@@ -42,11 +42,14 @@ html {
 }
 
 .content {
-  width: min(800px, 95%);
+  width: min(1000px, 95%);
 
-  margin: 0 auto;
+  margin: 10px auto;
 
-  background-color: #ffffff90;
+  background-color: #dde1e6;
+
+  border-style: outset;
+  border-width: 5px;
 
   align-items: stretch;
   justify-content: center;
