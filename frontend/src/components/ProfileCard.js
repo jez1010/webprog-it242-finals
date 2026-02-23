@@ -68,9 +68,13 @@ function ProfileCard() {
       </div>
 
       <div>
-        <form>
-          
-        </form>
+      {/* 
+      Projects
+      - Jessu-chan
+      - Aya-chan
+      - Campus Hub (Outsystems)
+      - Compass (Flutter)
+      */}
       </div>
 
     </div>
