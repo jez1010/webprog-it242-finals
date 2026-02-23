@@ -57,3 +57,34 @@ html {
   font-family: 'IBM Plex Sans';
 
 }
+
+.title1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.title2 {
+  font-weight: 600;
+  font-size: 1.3rem
+}
+
+.title3 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.label {
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.subtext {
+  font-weight: 200;
+  font-size: 0.7rem;
+}
+

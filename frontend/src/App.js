@@ -5,9 +5,9 @@ import {baseUrl} from './config';
 import {supabase} from './config';
 import './App.css';
 import Header from './components/Header';
-import Content from './components/Content';
+import ProfileCard from './components/ProfileCard';
+import GuestBookForm from './components/GuestbookForm';
 import PostCards from './components/PostCards';
-import BulletinForm from './components/BulletinForm';
 
 function BulletinBoard() {
   const [posts, setPosts] = useState([]);
@@ -56,9 +56,8 @@ function BulletinBoard() {
     <div>
       <Header/>
       <div className = "content">
-        <Content/>
-        <hr/>
-        <BulletinForm/>
+        <ProfileCard/>
+        <GuestBookForm/>
         <PostCards posts = {posts}/>
       </div>
     </div>
