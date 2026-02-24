@@ -2,11 +2,10 @@
   padding: 20px;
   margin: 10px;
 
-  border: solid;
+  border: outset;
   border-width: 2px;
 
-  background-color: #FFFFFF80;
-  color: #555555;
+  color: #000000;
 }
 
 .input {

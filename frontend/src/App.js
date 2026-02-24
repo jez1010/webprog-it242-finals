@@ -16,7 +16,7 @@ function BulletinBoard() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const {data} = await axios.get(`${baseUrl}/app`);
+        const {data} = await axios.get(`${baseUrl}/app/posts`);
         setPosts(data);
       } catch (err) {
         console.error(err);

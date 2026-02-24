@@ -8,7 +8,7 @@ import Selection from './ProfileCardSubmodules/Selection';
 
 function ProfileCard() {
   return (
-    <div className>
+    <div>
       <div className = {styles.top_tab}>
         <div>My Profile</div>
         <div className = {styles.buttons}>
@@ -37,7 +37,7 @@ function ProfileCard() {
             <a href = "https://www.facebook.com/jezcardz">
               <img 
                 src = "https://www.pngall.com/wp-content/uploads/19/Iconic-Facebook-Logo-Black-Style-PNG.png" 
-                class = {styles.contacts_logo} 
+                className = {styles.contacts_logo} 
                 alt = "Facebook logo. Click to see their Facebook profile."
               />
             </a>
@@ -46,7 +46,7 @@ function ProfileCard() {
             <a href="https://www.linkedin.com/in/jezron-cardona-590939321/">
               <img 
                 src="https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2428%2FPNG%2F512%2Flinkedin_black_logo_icon_147114.png&id=147114&pack_or_individual=pack" 
-                class={styles.contacts_logo} 
+                className = {styles.contacts_logo} 
                 alt="LinkedIn logo. Click to see their LinkedIn profile."
               />
             </a>
@@ -54,7 +54,7 @@ function ProfileCard() {
           <div>
             <img 
               src="https://cdn-icons-png.flaticon.com/256/625/625155.png" 
-              class={styles.contacts_logo} 
+              className = {styles.contacts_logo} 
               alt="A graphic of a telephone."
             />
             +63 992 722 9820
@@ -75,16 +75,19 @@ function ProfileCard() {
         </div>
       </div>
     
-      <div>
-      {/* 
-      Projects
-      - Jessu-chan
-      - Aya-chan
-      - Campus Hub (Outsystems)
-      - Compass (Flutter)
-      */}
-      <Selection/>
 
+      <div className = {styles.proj_label}>
+        <div className = "label">My Projects</div>
+      </div>
+      <div className = {styles.projects}>
+        {/* 
+        Projects
+        - Jessu-chan
+        - Aya-chan
+        - Campus Hub (Outsystems)
+        - Compass (Flutter)
+        */}
+        <Selection/>
       </div>
 
     </div>

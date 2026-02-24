@@ -5,4 +5,5 @@ export declare class AppService {
     constructor(configService: ConfigService);
     getPostData(): Promise<any[]>;
     createPost(in_name: string, in_content: string): Promise<null>;
+    getProjects(): Promise<any[]>;
 }
