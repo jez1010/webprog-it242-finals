@@ -13,6 +13,12 @@ async function bootstrap() {
       credentials: true,
     });
 
+  if (process.env.NODE_ENV !== 'production') {
+    const port = 3000;
+    await app.listen(port, '0.0.0.0');
+    console.log(`Codespaces/Local server running on port ${port}`);
+  }
+
     await app.init();
     cachedApp = app.getHttpAdapter().getInstance();
   }
