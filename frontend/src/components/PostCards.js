@@ -1,5 +1,5 @@
 import * as functions from '../functions.js';
-import './PostCards.css'
+import styles from './PostCards.module.css';
 
 function PostCards({ posts }) {
   return (
@@ -7,8 +7,8 @@ function PostCards({ posts }) {
       {
         posts.map(
           (post) => (
-            <div key = {post.id} className = "bulletin_post">
-              <span className = "anon_name">{post.name}</span> <span className = "post_date">{functions.formatDate(post.created_at)} {functions.formatTime(post.created_at)}</span>
+            <div key = {post.id} className = {styles.bulletin_post}>
+              <span className = {styles.anon_name}>{post.name}</span> <span className = {styles.post_date}>{functions.formatDate(post.created_at)} {functions.formatTime(post.created_at)}</span>
               <p>{post.content}</p>
             </div>
           )
