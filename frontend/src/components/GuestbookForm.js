@@ -2,9 +2,9 @@ import {useState} from 'react';
 import axios from 'axios';
 
 import {baseUrl} from '../config';
-import './BulletinForm.css';
+import styles from './GuestbookForm.module.css';
 
-function BulletinForm() {
+function GuestBookForm() {
   const [name, setName] = useState("");
   const [content, setContent] = useState("");
 
@@ -27,13 +27,13 @@ function BulletinForm() {
   };
 
   return (
-    <div className = "bulletin_form">
+    <div className = {styles.guestbook_form}>
       <span className = "title">Create a post on the board.</span>
       <form onSubmit = {handleSubmit}>
-        <span className = "label">Name</span>
+        <span className = "title3">Name</span>
         <br/>
         <input
-          className= "input"
+          className = {`${styles.input}`}
           type = "text"
           placeholder = "Enter name..."
           value = {name}
@@ -45,7 +45,7 @@ function BulletinForm() {
         <span className = "label">Content</span>
         <br/>
         <textarea
-          className = "input text_area"
+          className = {`${styles.input} ${styles.text_area}`}
           type = "text"
           placeholder = "Enter content..."
           value = {content}
@@ -60,4 +60,4 @@ function BulletinForm() {
   );
 }
 
-export default BulletinForm;
+export default GuestBookForm;

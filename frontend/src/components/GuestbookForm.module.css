@@ -1,4 +1,4 @@
-.bulletin_form {
+.guestbook_form {
   padding: 20px;
   margin: 10px;
 
@@ -7,16 +7,6 @@
 
   background-color: #FFFFFF80;
   color: #555555;
-}
-
-.title {
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.label {
-  font-weight: 200;
-  font-size: 0.7rem;
 }
 
 .input {

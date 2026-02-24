@@ -44,9 +44,12 @@ html {
 .content {
   width: min(800px, 95%);
 
-  margin: 0 auto;
+  margin: 10px auto;
 
-  background-color: #ffffff90;
+  background-color: #c1c7cd;
+
+  border-style: outset;
+  border-width: 3px;
 
   align-items: stretch;
   justify-content: center;
@@ -57,3 +60,34 @@ html {
   font-family: 'IBM Plex Sans';
 
 }
+
+.title1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.title2 {
+  font-weight: 600;
+  font-size: 1.3rem
+}
+
+.title3 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.subtext {
+  font-weight: 200;
+  font-size: 0.7rem;
+}
+
