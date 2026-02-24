@@ -185,3 +185,13 @@
 /* educational/academic info */
 
 /* projects */
+.proj_label {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.projects {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -46,6 +46,16 @@ let AppService = class AppService {
             throw error;
         return data;
     }
+    async getProjects() {
+        const { data, error } = await this.supabase
+            .schema('webprog_stuff')
+            .from('projects')
+            .select('*')
+            .order('id', { ascending: true });
+        if (error)
+            throw error;
+        return data;
+    }
 };
 exports.AppService = AppService;
 exports.AppService = AppService = __decorate([

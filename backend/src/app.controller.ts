@@ -5,9 +5,14 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
+  @Get('posts')
   async getAllPosts() {
     return await this.appService.getPostData();
+  }
+
+  @Get('projects')
+  async getAllProjects() {
+    return await this.appService.getProjects();  
   }
 
   @Post()

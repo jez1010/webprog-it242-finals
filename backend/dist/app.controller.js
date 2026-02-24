@@ -23,17 +23,26 @@ let AppController = class AppController {
     async getAllPosts() {
         return await this.appService.getPostData();
     }
+    async getAllProjects() {
+        return await this.appService.getProjects();
+    }
     async sendPost(body) {
         return await this.appService.createPost(body.name, body.content);
     }
 };
 exports.AppController = AppController;
 __decorate([
-    (0, common_1.Get)(),
+    (0, common_1.Get)('posts'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "getAllPosts", null);
+__decorate([
+    (0, common_1.Get)('projects'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "getAllProjects", null);
 __decorate([
     (0, common_1.Post)(),
     __param(0, (0, common_1.Body)()),

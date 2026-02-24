@@ -1,3 +1,11 @@
+.form_row {
+  width: 100%;
+
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minimax(50px, 1fr));
+}
+
 .choices {
   display: flex;
   flex-direction: row;
